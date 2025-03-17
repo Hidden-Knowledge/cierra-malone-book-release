@@ -8,16 +8,65 @@
     <script defer src="assets/script.js"></script>
 </head>
 <body class="bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100">
-    <section class="min-h-screen flex items-center justify-center">
-    <div class="text-center">
-        <img src="./assets/book-cover.jpg" alt="Life's Blueprint Book Cover" class="w-64 mx-auto rounded-lg shadow-lg">
-        <h1 class="text-4xl font-bold mt-4">Life's Blueprint: Goals, Gratitude, and Growing Beyond Boundaries</h1>
-        <p class="mt-2 text-lg">by Cierra U. Malone</p>
+    
+    <!-- Hero Section -->
+    <section class="min-h-screen flex flex-col items-center justify-center text-center p-6">
+        <img src="assets/book-cover.jpg" alt="Life's Blueprint Book Cover" class="w-64 rounded-lg shadow-lg">
+        <h1 class="text-4xl font-bold mt-6">Life's Blueprint: Goals, Gratitude, and Growing Beyond Boundaries</h1>
+        <p class="mt-4 text-lg">by Cierra U. Malone</p>
         <a id="buyButton" href="checkout.html" class="mt-6 inline-block px-6 py-3 bg-blue-500 text-white rounded-lg text-lg shadow-lg hover:bg-blue-600">
             Buy Now for $23.99
         </a>
-    </div>
-</section>
+    </section>
+
+    <!-- About the Author -->
+    <section class="container mx-auto px-6 py-12 text-center">
+        <h2 class="text-3xl font-semibold">Meet the Author</h2>
+        <img src="assets/IMG_3153.png" alt="Cierra U. Malone" class="mx-auto mt-4 rounded-full w-48 h-48 object-cover shadow-lg">
+        <p class="mt-4 text-lg">
+            Cierra U. Malone is an inspiring author dedicated to empowering individuals through personal development and self-growth.
+        </p>
+    </section>
+
+    <!-- Book Highlights -->
+    <section class="container mx-auto px-6 py-12 text-center">
+        <h2 class="text-3xl font-semibold">What You'll Learn</h2>
+        <div class="mt-6 grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md">
+                <h3 class="text-xl font-semibold">Goal Setting Strategies</h3>
+                <p class="mt-2">Master the art of setting and achieving meaningful goals.</p>
+            </div>
+            <div class="p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md">
+                <h3 class="text-xl font-semibold">Power of Gratitude</h3>
+                <p class="mt-2">Discover how gratitude can transform your mindset and success.</p>
+            </div>
+            <div class="p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md">
+                <h3 class="text-xl font-semibold">Overcoming Challenges</h3>
+                <p class="mt-2">Learn practical steps to push past obstacles and grow beyond boundaries.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="container mx-auto px-6 py-12 text-center bg-gray-200 dark:bg-gray-800">
+        <h2 class="text-3xl font-semibold">What Readers Are Saying</h2>
+        <p class="mt-4 text-lg italic">
+            "This book changed my life! A must-read for anyone seeking growth." – Reader Review
+        </p>
+    </section>
+
+    <!-- Buy Section -->
+    <section id="buy" class="container mx-auto px-6 py-12 text-center">
+        <h2 class="text-3xl font-semibold">Get Your Copy Today</h2>
+        <a id="buyButton" href="checkout.html" class="mt-6 inline-block px-6 py-3 bg-green-500 text-white rounded-lg text-lg shadow-lg hover:bg-green-600">
+            Buy Now for $23.99
+        </a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-6 bg-gray-800 text-white text-center">
+        <p>&copy; 2025 Cierra U. Malone. All rights reserved.</p>
+    </footer>
+
 </body>
 </html>
-
